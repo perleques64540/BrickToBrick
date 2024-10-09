@@ -1,15 +1,11 @@
 import { Link } from 'react-router-dom';
-import Team_Social from './Member_Social';
+import person from '../../../assets/img/person-4.png'
 
 // eslint-disable-next-line react/prop-types
 const Member = ({
   img,
   name,
-  info,
-  facebook,
-  twitter,
-  linkedin,
-  instagram,
+  info
 }) => {
   return (
     <li
@@ -17,9 +13,9 @@ const Member = ({
       data-jos_animation='flip'
       data-jos_delay='0.1'
     >
-      <div className='xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]'>
+      <div className='xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[250px]'>
         <img
-          src={img}
+          src={person}
           alt='team-member-img-1'
           width={376}
           height={400}
@@ -34,15 +30,7 @@ const Member = ({
           {name}
         </Link>
         <div className='mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center'>
-          <span className='text-[21px]'>{info}</span>
-          {
-            <Team_Social
-              facebook={facebook}
-              twitter={twitter}
-              linkedin={linkedin}
-              instagram={instagram}
-            />
-          }
+          <span className='text-[21px]'>Student Number: {info}</span>
         </div>
       </div>
     </li>

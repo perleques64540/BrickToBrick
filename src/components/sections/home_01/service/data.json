@@ -1,26 +1,27 @@
 [
   {
-    "icon_black": "assets/img/th-1/service-icon-black-1.svg",
-    "icon_orange": "assets/img/th-1/service-icon-orange-1.svg",
-    "title": "Resource Flexibility",
-    "text": "This is an excellent option for people &amp; small businesses who are starting out."
+    "title": "Stage 1",
+    "text": "This is an excellent option for people &amp; small businesses who are starting out.",
+    "link": "https://drive.google.com/drive/u/2/folders/1JohDEpYAmhJXeaeYnGJZsVNk8RwBPsNd",
+    "status": "Delivered"
   },
   {
-    "icon_black": "assets/img/th-1/service-icon-black-2.svg",
-    "icon_orange": "assets/img/th-1/service-icon-orange-2.svg",
-    "title": "Managed Services",
-    "text": "This is an excellent option for people &amp; small businesses who are starting out."
+    "title": "Stage 2",
+    "text": "In this stage, you should examine and understand the problem space. Who are the main users of the system? What tasks users want to perform with the system? What functionalities should be made available by the system? How is the work environment?",
+    "link": "https://drive.google.com/drive/u/2/folders/1K_LFIMTvkQcs78vA0FsIu1pquMWfzOGm",
+    "status": "Delivered"
   },
   {
-    "icon_black": "assets/img/th-1/service-icon-black-3.svg",
-    "icon_orange": "assets/img/th-1/service-icon-orange-3.svg",
-    "title": "Web-Based Access",
-    "text": "This is an excellent option for people &amp; small businesses who are starting out."
+    "title": "Stage 3",
+    "text": "In this stage you are going to develop the first prototype of your system. It will be a throwaway prototype, which should be able to handle at least 3 scenarios described in the task analysis. Your prototype will be tested by your colleagues during the lab class on October 22/23/24.",
+    "link": "",
+    "status": "In Progress"
+
   },
   {
-    "icon_black": "assets/img/th-1/service-icon-black-4.svg",
-    "icon_orange": "assets/img/th-1/service-icon-orange-4.svg",
-    "title": "Resource Flexibility",
-    "text": "This is an excellent option for people &amp; small businesses who are starting out."
+    "title": "Stage 4",
+    "text": "Guidelines Not Published",
+    "link": "",
+    "status": "Not Started"
   }
 ]

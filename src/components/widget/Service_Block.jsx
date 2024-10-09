@@ -1,48 +1,45 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-const Service_Block = ({ icon_black, icon_orange, title, text }) => {
+const Service_Block = ({ title, status, text, link }) => {
+  // Define status-based color classes
+  const statusColor =
+    status === "Delivered"
+      ? "text-green-500"
+      : status === "In Progress"
+      ? "text-yellow-500"
+      : status === "Not Started"
+      ? "text-orange-500"
+      : "text-gray-500"; // default color if none of the conditions match
+
   return (
-    <li className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black'>
-      <div className='relative mb-9 h-[70px] w-[70px]'>
-        <img
-          src={icon_black}
-          alt='service-icon-black-1'
-          width={70}
-          height={70}
-        />
-        <img
-          src={icon_orange}
-          alt='service-icon-orange-1'
-          width={70}
-          height={70}
-          className='absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100'
-        />
-      </div>
-      <h3 className='mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]'>
-        <Link to='/service-details' className='hover:text-colorOrangyRed'>
-          {title}
-        </Link>
-      </h3>
-      <p className='mb-12 duration-300 group-hover:text-white'>{text}</p>
-      <Link
-        to='/service-details'
-        className='relative inline-block h-[30px] w-[30px] duration-300'
+    <li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+      <h2 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+        {link ? (
+          <Link to={link} className="hover:text-colorOrangyRed">
+            {title}
+          </Link>
+        ) : (
+          <span className="hover:text-colorOrangyRed">{title}</span>
+        )}
+      </h2>
+      {/* Apply the dynamic statusColor class based on status */}
+      <h3
+        className={`mb-4 block text-xl leading-tight -tracking-[0.5px] ${statusColor} group-hover:text-white xl:text-2xl xxl:text-[28px]`}
       >
-        <img
-          src='assets/img/th-1/arrow-right-black.svg'
-          alt='arrow-right-black'
-          width={30}
-          height={30}
-        />
-        <img
-          src='assets/img/th-1/arrow-right-orange.svg'
-          alt='arrow-right-black'
-          width={30}
-          height={30}
-          className='absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100'
-        />
-      </Link>
+        {status}
+      </h3>
+      <p className="mb-12 duration-300 group-hover:text-white">{text}</p>
+      {link ? (
+        <Link
+          to={link}
+          className="button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+        >
+          View Report
+        </Link>
+      ) : (
+        <></>
+      )}
     </li>
   );
 };

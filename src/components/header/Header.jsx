@@ -13,9 +13,9 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
       id='sticky-menu'
     >
       <div className='global-container'>
-        <div className='flex items-center justify-between gap-x-8'>
+        <div className='flex items-center justify-center gap-x-8'>
           {/* Header Logo */}
-          <Logo light={light} />
+    
           {/* Header Logo */}
           {/* Header Navigation */}
           <Navbar
@@ -25,25 +25,7 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
           />
           {/* Header Navigation */}
           {/* Header User Event */}
-          <div className='flex items-center gap-6'>
-            <Link to='/login' className={loginCSS}>
-              Login
-            </Link>
-            <Link to='/signup' className={signupCSS}>
-              Sign up free
-            </Link>
-            {/* Responsive Off-canvas Menu Button */}
-            <div className='block lg:hidden'>
-              <button
-                onClick={() => setMobileMenu(true)}
-                className={`mobile-menu-trigger ${
-                  light ? 'is-white' : 'is-black'
-                }`}
-              >
-                <span />
-              </button>
-            </div>
-          </div>
+          
           {/* Header User Event */}
         </div>
       </div>

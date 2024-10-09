@@ -13,7 +13,7 @@ const Service = () => {
             {/* Section Content Block */}
             <div className='jos mb-10 lg:mb-16 xl:mb-20'>
               <div className='md:max-w-sm lg:max-w-xl xl:max-w-[746px]'>
-                <h2>Core features that make it valuable</h2>
+                <h2>Deliveries</h2>
               </div>
             </div>
             {/* Section Content Block */}
