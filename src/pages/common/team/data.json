@@ -2,21 +2,25 @@
   {
     "img": "assets/img/th-1/person-4.png",
     "name": "Daniel Cruz",
-    "info": "70455"
+    "info": "70455",
+    "assignment": ""
   },
   {
     "img": "assets/img/th-1/team-member-img-2.jpg",
     "name": "Francisco Jorge",
-    "info": "70293"
+    "info": "70293",
+    "assignment": "https://drive.google.com/file/d/1GZ_XzsaG-WmF8tvOIw6rJ6sv2h30psu0/view?usp=drive_link"
   },
   {
     "img": "assets/img/th-1/team-member-img-3.jpg",
     "name": "João Cristóvão",
-    "info": "70569"
+    "info": "70569",
+    "assignment": ""
   },
   {
     "img": "assets/img/th-1/team-member-img-4.jpg",
     "name": "João Perleques",
-    "info": "64540"
+    "info": "64540",
+    "assignment": ""
   }
 ]
