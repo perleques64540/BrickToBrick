@@ -20,8 +20,20 @@
   },
   {
     "title": "Stage 4",
-    "text": "Guidelines Not Published",
+    "text": "In this stage, according to the results obtained during the first prototype user tests, you are going to develop a functional prototype.",
     "link": "https://drive.google.com/file/d/1ckpWVv7X3V40MMNH7dyyzVX76os5B7v6/view?usp=drive_link",
+    "status": "Delivered"
+  },
+  {
+    "title": "Stage 5",
+    "text": "In this stage, each group is going to evaluate the interactive system interface developed by another group of colleagues. A project will be assigned to each group (in class) to evaluate and produce an evaluation report.",
+    "link": "https://drive.google.com/file/d/1MgnYD8uqYJKS17n0BCtrX5y0KeO_Deir/view?usp=drive_link",
+    "status": "Delivered"
+  },
+  {
+    "title": "Stage 6",
+    "text": "In this stage, each group is going to evaluate the interactive system interface developed by another group of colleagues. A project will be assigned to each group (in class) to evaluate and produce an evaluation report.",
+    "link": "https://drive.google.com/file/d/1EeqzL0S-lf8euA9fZnG4HsNJN_w_JVtM/view?usp=drive_link",
     "status": "Delivered"
   }
 ]
