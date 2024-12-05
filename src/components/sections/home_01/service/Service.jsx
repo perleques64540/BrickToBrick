@@ -18,7 +18,7 @@ const Service = () => {
             </div>
             {/* Section Content Block */}
             {/* Service List */}
-            <ul className='jos grid grid-cols-1 gap-[2px] overflow-hidden rounded-[10px] border-2 border-black bg-black sm:grid-cols-2 lg:grid-cols-4'>
+            <ul className='jos grid grid-cols-1 gap-[2px] overflow-hidden rounded-[10px] border-2 border-black bg-black sm:grid-cols-2 lg:grid-cols-3'>
               {/* Service Item */}
               {data.map((item, index) => (
                 <Service_Block key={index} {...item} />
